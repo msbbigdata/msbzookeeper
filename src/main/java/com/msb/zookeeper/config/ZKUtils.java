@@ -13,7 +13,7 @@ public class ZKUtils {
 
     private  static ZooKeeper zk;
 
-    private static String address = "192.168.150.11:2181,192.168.150.12:2181,192.168.150.13:2181,192.168.150.14:2181/testConf";
+    private static String address = "192.168.150.11:2181,192.168.150.12:2181,192.168.150.13:2181,192.168.150.14:2181/testLock";
 
     private static DefaultWatch watch = new DefaultWatch();
 
